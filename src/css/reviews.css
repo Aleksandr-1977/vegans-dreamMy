@@ -1,0 +1,37 @@
+.reviews-section {
+    padding: 80px 0;
+}
+.reviews-container {
+    padding: 0 20px;
+}
+.reviews-heder {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04167;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.reviews-heder-part {
+    color: #576f35;
+}
+.reviews-descr {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #141414;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.reviews-list-item {
+    padding: 20px 0;
+}
+.reviews-list-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
