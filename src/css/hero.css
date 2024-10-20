@@ -73,6 +73,7 @@
     max-width: 100%;
     min-height: 800px;
     background-size: 650px 800px;
+
     background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('/img/hero/bg-vegetables.jpg');
     background-repeat: no-repeat;
     background-position: right;
