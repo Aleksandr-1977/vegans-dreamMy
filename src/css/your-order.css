@@ -8,13 +8,27 @@
 
 .order-container{
     display: flex;
-  flex-direction: column;
-   
-    
-    
+  flex-direction: column; 
 }
 
-
+@media screen and (min-width: 1280px) {
+  .container {
+      max-width: 1280px;
+      padding: 0 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+      max-width: 768px;
+      padding: 0 32px;
+  }
+}
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
   /* Styles for Tablet devices */
   
   /* Styles for Desktop devices */
@@ -60,6 +74,10 @@
     
     
     padding: 100px 0 100px 0;
+}
+.container {
+  max-width: 768px;
+  padding: 0 32px;
 }
   .order-parag{
     max-width: 640px;
@@ -356,25 +374,26 @@
     letter-spacing: -1.5%;
 }
 
-@media screen and (min-width:1250px){
+@media screen and (min-width:1280px){
   .title-order {
     max-width: 751px;
   }
   .order-parag {
     max-width: 742px;
   }
-  .order-container{
-    padding-top: 100px;
-    padding-left: 100px;
-  }
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+}
+  
   .cards-container{
     display:flex;
     flex-direction: row;
     gap: 24px
   }
   .register-overlay{
-    padding-left:100px;
-    padding-bottom:100px;
+    padding-left: 35px;
+        padding-bottom: 100px;
     
   }
   .register{
@@ -387,7 +406,8 @@
 }
 
 .card-container {
-  width: 528px;
+  width: 529px;
+  padding-right: 50px;
   height: 500px;
 }
 
