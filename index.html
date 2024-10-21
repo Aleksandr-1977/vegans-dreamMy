@@ -28,8 +28,12 @@
         <li class="header-nav-list-item">
           <a class="header-nav-list-item-link" href="#how-it-works">How it Works</a>
         </li>
-        <li class="header-nav-list-item"><a class="header-nav-list-item-link" href="#vegetables">Vegetables</a></li>
-        <li class="header-nav-list-item"><a class="header-nav-list-item-link" href="#reviews">Reviews</a></li>
+        <li class="header-nav-list-item">
+          <a class="header-nav-list-item-link" href="#vegetables">Vegetables</a>
+        </li>
+        <li class="header-nav-list-item">
+          <a class="header-nav-list-item-link" href="#reviews">Reviews</a>
+        </li>
       </ul>
     </nav>
     <button class="header-shop-btn" type="button">
@@ -73,9 +77,15 @@
     </button>
     <nav class="mobile-menu-nav">
       <ul class="mobile-menu-nav-list">
-        <li class="mobile-menu-nav-items"><a class="mobile-menu-nav-link" href="#">How It Works</a></li>
-        <li class="mobile-menu-nav-items"><a class="mobile-menu-nav-link" href="#">Vegetables</a></li>
-        <li class="mobile-menu-nav-items"><a class="mobile-menu-nav-link" href="#">Reviews</a></li>
+        <li class="mobile-menu-nav-items">
+          <a class="mobile-menu-nav-link" href="#">How It Works</a>
+        </li>
+        <li class="mobile-menu-nav-items">
+          <a class="mobile-menu-nav-link" href="#">Vegetables</a>
+        </li>
+        <li class="mobile-menu-nav-items">
+          <a class="mobile-menu-nav-link" href="#">Reviews</a>
+        </li>
       </ul>
     </nav>
     <a class="mobile-order-btn" href="#">Shop now</a>
@@ -87,7 +97,7 @@
       <section class="how-it-works-section">
   <div>
     <div class="how-it-works">
-      <h2 class="visually-hidden">how-it-works</h2>
+      <h2 class="visually-hidden" id="how-it-works">how-it-works</h2>
       <div class="image-container">
         <picture>
           <source
@@ -163,7 +173,7 @@
 <!-- //advertisement section -->
 
       <!-- vegetables section -->
-      <section class="vegetables-bg containter-pad-mob">
+      <section class="vegetables-bg containter-pad-mob" id="vegetables">
   <div class="container">
     <h2 class="vegetables-title">Organic <span class="second-title-color">vegetables</span></h2>
     <p class="vegetables-text">
@@ -249,7 +259,7 @@
 
 
       <!-- reviews section -->
-      <section class="reviews-section container-pad containter-pad-mob">
+      <section class="reviews-section container-pad containter-pad-mob" id="reviews">
   <div class="reviews-container container">
     <h2 class="reviews-heder">
       reviews from our
@@ -338,25 +348,22 @@
           Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.
         </p>
       </div>
-
       <ul class="footer-menu-list">
         <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">how it works</a>
+          <a class="footer-menu-link" href="#how-it-works">how it works</a>
         </li>
         <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">vegetables</a>
+          <a class="footer-menu-link" href="#vegetables">vegetables</a>
         </li>
         <li class="footer-menu-item">
-          <a class="footer-menu-link" href="#">reviews</a>
+          <a class="footer-menu-link" href="#reviews">reviews</a>
         </li>
       </ul>
-
       <address class="footer-contacts">
         <a class="footer-contacts-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
         <p class="footer-contacts-text">1678 S. Pioneer Road Salt Lake City UT 84104</p>
       </address>
     </div>
-
     <div class="footer-wrapper">
       <ul class="footer-privacy-policy-list">
         <li class="footer-privacy-policy-item">
@@ -366,7 +373,6 @@
           <a class="footer-privacy-policy-link" href="#">Cookie settings</a>
         </li>
       </ul>
-
       <p class="footer-copyright-text">&#169;Green Harvest 2023</p>
     </div>
   </div>
