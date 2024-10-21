@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet" />
     <title>Vegan's dream</title>
     <link rel="stylesheet" crossorigin href="/vegans-dream/assets/index-DeAUexgw.css">
   </head>
@@ -16,7 +16,7 @@
     <header class="header">
   <div class="container header-container">
     <nav class="header-nav">
-      <a class="header-logo" href="/vegans-dream/">
+      <a class="header-logo" href="#">
         <svg class="header-logo-icon-dots" width="16" height="16">
           <use href="/vegans-dream/assets/sprite-DcNrR8Wt.svg#icon-dots"></use>
         </svg>
@@ -39,7 +39,7 @@
     <button class="header-shop-btn" type="button">
       <a class="header-shop-btn-link" href="#your-order">Shop Now</a>
     </button>
-    <button class="header-burger-btn" type="button">
+    <button class="header-burger-btn" type="button" data-menu-open>
       <svg class="header-burger-btn-icon" width="26" height="20">
         <use href="/vegans-dream/assets/sprite-DcNrR8Wt.svg#icon-line"></use>
       </svg>
@@ -68,9 +68,9 @@
 
 
       <!-- menu-mobile section -->
-      <section class="mobile-menu">
+      <section class="mobile-menu" data-menu>
   <div class="container mobile-menu-container">
-    <button class="mobile-menu-btn-close" type="button">
+    <button class="mobile-menu-btn-close" type="button" data-menu-close>
       <svg class="mobil-icon-close" width="32" height="32">
         <use href="/vegans-dream/assets/sprite-DcNrR8Wt.svg#icon-x"></use>
       </svg>
@@ -78,17 +78,17 @@
     <nav class="mobile-menu-nav">
       <ul class="mobile-menu-nav-list">
         <li class="mobile-menu-nav-items">
-          <a class="mobile-menu-nav-link" href="#">How It Works</a>
+          <a class="mobile-menu-nav-link" href="#how-it-works" target="_blank">How It Works</a>
         </li>
         <li class="mobile-menu-nav-items">
-          <a class="mobile-menu-nav-link" href="#">Vegetables</a>
+          <a class="mobile-menu-nav-link" href="#vegetables" target="_blank">Vegetables</a>
         </li>
         <li class="mobile-menu-nav-items">
-          <a class="mobile-menu-nav-link" href="#">Reviews</a>
+          <a class="mobile-menu-nav-link" href="#reviews" target="_blank">Reviews</a>
         </li>
       </ul>
     </nav>
-    <a class="mobile-order-btn" href="#">Shop now</a>
+    <a class="mobile-order-btn" href="#your-order" target="_blank">Shop now</a>
   </div>
 </section>
 
@@ -386,5 +386,7 @@
   </div>
 </footer>
 
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
