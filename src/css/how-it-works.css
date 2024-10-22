@@ -145,14 +145,14 @@
     }
     .how-it-works-section{
         background: rgb(122,49,69);
-        background: linear-gradient(90deg, rgba(122,49,69,1) 50%, rgba(87,111,53,1) 50%);
+        background: linear-gradient(90deg, rgba(122,49,69,1) 49.2%, rgba(87,111,53,1) 49.2%);
      }
     .how-it-works{
             flex-direction: row;
         }
         .image-container{
             width: 630px;
-            
+            padding: 0;
         }    
         .how-it-works_image{
             margin-right: 100px;
