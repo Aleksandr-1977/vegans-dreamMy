@@ -144,15 +144,15 @@
         padding: 100px 0 100px 0;
     }
     .how-it-works-section{
-        background: rgb(122,49,69);
-        background: linear-gradient(90deg, rgba(122,49,69,1) 49.2%, rgba(87,111,53,1) 49.2%);
+        background: linear-gradient(90deg, rgba(122,49,69,1) 50%, rgba(87,111,53,1) 50%);
+        padding: 0;
      }
     .how-it-works{
             flex-direction: row;
         }
         .image-container{
             width: 630px;
-            padding: 0;
+            padding: 100px 0 100px 0;
         }    
         .how-it-works_image{
             margin-right: 100px;
@@ -166,7 +166,7 @@
         .order-section-content{
             max-width: 450px;
             margin-left: 100px;
-            padding: 0;
+            padding: 100px 0 100px 0;
         }
         .how-it-works-title{
             margin-bottom: 25px;
