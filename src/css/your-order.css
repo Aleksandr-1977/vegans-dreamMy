@@ -48,15 +48,15 @@ line-height: 1.2;
 }
 .order-container {
   max-width: 1280px;
+  padding-bottom: 50px;
 }
 
 
 
 .order-parag{
   max-width: 640px;
-      
-      font-size: 16px;
-      padding-bottom: 50px;
+ font-size: 16px;
+
 }
 
 .register{
@@ -127,7 +127,7 @@ background-color: #fcfcfc;
 .order-container{
   width: 100%;
   margin: 0 auto;
-
+  margin-bottom: 40px;
   padding: 0 20px;
 }
 .div-picture{
@@ -203,7 +203,7 @@ width:100%;
   color:#141414;
 }
 .coment-section{
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .comment-textarea{
@@ -407,6 +407,7 @@ margin: 0 auto;
 
 .register{
   margin: 0 auto;
+  margin-bottom:20px
 }
 
 .register-overlay {
